@@ -31,7 +31,7 @@ def index():
         ref = db.reference("mensajes")
         ref.push(mensaje_data)
 
-    return render_template("index.html", resultado=resultado)
+    return render_template("index.html", resultado=resultado, mensaje_ingresado=texto if request.method == "POST" else None)
 
 if __name__ == "__main__":
     app.run(debug=True)

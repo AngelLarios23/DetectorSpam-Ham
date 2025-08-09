@@ -116,6 +116,13 @@
         <div class="resultado {{ resultado|lower }}">
             {{ resultado }}
         </div>
+        {% if mensaje_ingresado %}
+            <p style="margin-top: 1rem; text-align: center;">
+                <strong>Mensaje que ingresaste:</strong> {{ mensaje_ingresado }}
+            </p>
+        {% endif %}
     {% endif %}
+
+
 </body>
 </html>
