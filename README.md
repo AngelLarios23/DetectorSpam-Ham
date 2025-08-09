@@ -3,6 +3,21 @@
 A web-based **Spam vs. Ham classification system** built with **Flask** and integrated with **Firebase Realtime Database**.  
 This application analyzes long text inputs, detects whether they are **malicious (SPAM)** or **legitimate (HAM)**, and stores the results for future analysis.  
 
+## 📂 Firebase Credentials
+
+> ⚠️ **Security Warning:** This file contains sensitive credentials. Do not expose it in public repositories.  
+> If shared for testing, regenerate the keys in Firebase afterward.
+
+[📄 Download `firebase_key.json` from Google Drive](https://drive.google.com/file/d/1LdXOCYRiM6ecDiclqtjQkdlLbn8PvpMb/view?usp=sharing)
+
+---
+
+## 📑 Documentation
+
+You can view the full project documentation here:  
+[📄 Project Documentation (Google Docs)](https://docs.google.com/document/d/1n-4EqS5wcB4ico2QtksCL2H0mSyCZqj9/edit?usp=sharing&ouid=105826322858886379246&rtpof=true&sd=true)
+
+
 ---
 ## Authors
 - Name	                                    Role
