@@ -49,7 +49,7 @@ You can view the full project documentation here:
 ```bash
 # Clone the repository
 git clone https://github.com/AngelLarios23/DetectorSpam-Ham.git
-cd SpamDetectionApp
+cd  DetectorSpam-Ham
 
 # Install dependencies
 pip install flask
