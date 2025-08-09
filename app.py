@@ -5,10 +5,10 @@ import firebase_admin
 from firebase_admin import credentials, db
 
 # Inicializa la app de Firebase
-#credenciales = credentials.Certificate("firebase_key.json") # archivo de verificacion para acceder a Firebase
-#firebase_admin.initialize_app(credenciales, {
-#    'databaseURL': 'https://dbspam-ae2bc-default-rtdb.firebaseio.com/' # url de Firebase
-#})
+credenciales = credentials.Certificate("firebase_key.json") # archivo de verificacion para acceder a Firebase
+firebase_admin.initialize_app(credenciales, {
+    'databaseURL': 'https://dbspam-ae2bc-default-rtdb.firebaseio.com/' # url de Firebase
+})
 
 
 app = Flask(__name__)
